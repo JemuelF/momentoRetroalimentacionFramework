@@ -26,3 +26,30 @@ Dividimos nuestro dataset en nuestro set de entrenamiento y el de validación
 ## Random Forest
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/71990312/189453713-e55cf69a-0388-473a-8322-14426df9d601.png">
+Podemos ver un claro overfitting ya que en el set de entrenamiento logra un score perfecto pero cuando se usa el de validación el score baja mucho
+
+### Gráfica set de entrenamiento
+<img width="1214" alt="image" src="https://user-images.githubusercontent.com/71990312/189453802-e76d9f75-9e92-4c76-a3d0-71838202df13.png">
+Se puede observar que sigue a la perfección los datos de entrenamiento
+
+### Gráfica set de validación
+<img width="439" alt="image" src="https://user-images.githubusercontent.com/71990312/189453848-8f3eb91a-fe95-4859-9d52-d214b061c1eb.png">
+<img width="1126" alt="image" src="https://user-images.githubusercontent.com/71990312/189453858-ae6b168c-538c-49a8-8704-f25eac7d6b54.png">
+Vemos como el modelo ya no sigue tan bien los datos de validación
+
+
+## Regresión
+<img width="908" alt="image" src="https://user-images.githubusercontent.com/71990312/189453932-8a502c8a-7ef1-4790-a4dd-a329ac3fdd04.png">
+Vemos que aunque el score no es perfecto, se mantiene aceptable en el subset de entrenamiento y en el de validación por lo que podríamos decir que el modelo es aceptable
+
+### Gráfica set de entrenamiento
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/71990312/189454029-8f64220a-8dc1-4a73-be9c-7a1071cb96b3.png">
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/71990312/189454041-17a4c90f-5e2f-4c77-8e44-6e37ebdb740a.png">
+
+Aunque los datos del modelo no siguen a la perfección los datos del set de entrenamiento podemos observar que si se mantienen estables y dentro de un rango aceptable
+
+### Gráfica set de validación
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/71990312/189454055-e0787e92-6f22-4e23-85e6-ad536f3f44ba.png">
+<img width="1097" alt="image" src="https://user-images.githubusercontent.com/71990312/189454074-f2e2cdcd-2c27-46c6-8d83-bb382581ea5d.png">
+
+Vemos que el comportamiento es similar al del set de entrenamiento
